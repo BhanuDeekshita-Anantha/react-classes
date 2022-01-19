@@ -4,6 +4,7 @@ import Storage from './Storage';
 import Constructor from './Constructor';
 import LetterThree from './components/LetterThree'
 import Events from './components/Events'
+import Input from './components/Input'
 {/*import React from 'react';
 import ClassComponent from './ClassComponent';
 
@@ -22,11 +23,12 @@ function App() {
 function App(){
   return (
     <div>
+      <Input/>
       {/* <FunComp name="bhanu" age="22"/>
       <FunComp name="murvez" age="21"/>
       <FunComp name="priya" age="21"/> */}
       { /*<LetterThree name="siri" age="23" say="I will not say the letter"/>  */}
-     <Events/>
+     {/* <Events/> */}
     </div>
   );
 }
