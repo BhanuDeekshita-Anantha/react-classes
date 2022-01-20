@@ -5,6 +5,7 @@ import Constructor from './Constructor';
 import LetterThree from './components/LetterThree'
 import Events from './components/Events'
 import Input from './components/Input'
+import Regular from './components/Regular';
 {/*import React from 'react';
 import ClassComponent from './ClassComponent';
 
@@ -23,7 +24,8 @@ function App() {
 function App(){
   return (
     <div>
-      <Input/>
+      <Regular/>
+      {/* <Input/> */}
       {/* <FunComp name="bhanu" age="22"/>
       <FunComp name="murvez" age="21"/>
       <FunComp name="priya" age="21"/> */}
